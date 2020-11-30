@@ -8,3 +8,5 @@
     defaultBranch = master
 [alias]
     dotfiles = !git --git-dir=.dotfiles --work-tree=.
+[credential]
+    helper = manager-core
