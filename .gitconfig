@@ -1,0 +1,8 @@
+[user]
+    name = Lex Song
+    email = LexSong.tw@gmail.com
+[core]
+    autocrlf = input
+    editor = nvim
+[alias]
+    dotfiles = !git --git-dir=.dotfiles --work-tree=.
