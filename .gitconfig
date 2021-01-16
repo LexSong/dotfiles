@@ -4,5 +4,7 @@
 [core]
     autocrlf = input
     editor = nvim
+[init]
+    defaultBranch = master
 [alias]
     dotfiles = !git --git-dir=.dotfiles --work-tree=.
