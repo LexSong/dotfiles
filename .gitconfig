@@ -3,7 +3,7 @@
     email = LexSong.tw@gmail.com
 [core]
     autocrlf = input
-    editor = nvim
+    editor = env TERM=vtpcon nvim
 [init]
     defaultBranch = master
 [alias]
