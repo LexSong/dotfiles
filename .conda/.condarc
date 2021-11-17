@@ -1,4 +1,5 @@
+channel_priority: strict
 channels:
-  - defaults
   - conda-forge
+  - defaults
 env_prompt: "({name}) "
