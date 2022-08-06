@@ -6,5 +6,9 @@
     editor = nvim
 [alias]
     dotfiles = !git --git-dir=.dotfiles --work-tree=.
+[diff]
+    tool = vimdiff
+[difftool "vimdiff"]
+    path = nvim
 [diff "sqlite3"]
     textconv = "echo .dump | sqlite3"
