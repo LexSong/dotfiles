@@ -6,6 +6,8 @@
     editor = nvim
 [alias]
     dotfiles = !git --git-dir=.dotfiles --work-tree=.
+[init]
+    defaultBranch = main
 [diff]
     tool = vimdiff
 [difftool "vimdiff"]
