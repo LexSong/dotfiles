@@ -18,3 +18,8 @@
     path = nvim
 [diff "sqlite3"]
     textconv = "echo .dump | sqlite3"
+[credential]
+    helper =
+    helper = manager
+[credential "https://huggingface.co"]
+    provider = generic
