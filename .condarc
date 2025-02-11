@@ -1,6 +1,0 @@
-channel_priority: strict
-channels:
-  - conda-forge
-  - nodefaults
-env_prompt: '({name}) '
-solver: libmamba
